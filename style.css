@@ -1,0 +1,32 @@
+.container1 {
+  display:grid;
+  grid-template-columns: 25% auto;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+.header {
+  background-color: red;
+  grid-area: header;
+}
+
+.nav {
+  background-color: blue;
+  grid-area: nav;
+}
+
+.main {
+  background-color: grey;
+  grid-area: main;
+}
+
+.footer {
+  background-color: purple;
+  grid-area: footer;
+}
+
+div {
+  height: 60px;
+}
