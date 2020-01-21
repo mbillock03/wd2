@@ -10,7 +10,9 @@
 }
 
 body {
-  background: linear-gradient(to right, lightgreen, teal);
+  background-color: linear-gradient(to right, lightgreen, teal);
+  font-family: Veradana;
+  margin:0;
 }
 
 header, nav, main, footer {
