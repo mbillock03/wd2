@@ -13,8 +13,8 @@ body {
   background: linear-gradient(to right, lightgreen, teal);
 }
 
-header, nav, main, footer {
-  background:rgba(0,0,0,.2);
+header, nav, main, footer background {
+color:rgba(0,0,0,.2);
 }
 
 header h1 {
