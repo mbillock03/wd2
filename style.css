@@ -39,11 +39,15 @@ header h1 {
 header h3 {
   width: 2vw;
 }
+
 main h2 {
   width: 3em;
 }
+
 nav li {
   width: 1.5em;
+}
+
 main p, footer p {
   width: 1em;
 }
