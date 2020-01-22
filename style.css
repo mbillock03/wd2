@@ -40,6 +40,9 @@ header h3 {
   width: 2vw;
 }
 
+main {
+  grid-area:main;
+}
 main h2 {
   width: 3em;
 }
