@@ -31,3 +31,19 @@ header h3, nav a, main h2 {
   main p, footer p {
     color:white;
 }
+
+header h1 { 
+  width: 5vw; 
+}
+
+header h3 {
+  width: 2vw;
+}
+main h2 {
+  width: 3em;
+}
+nav li {
+  width: 1.5em;
+main p, footer p {
+  width: 1em;
+}
