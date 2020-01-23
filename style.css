@@ -41,10 +41,23 @@ header h3 {
 }
 
 main {
-  grid-area:main;
+  grid-area: main;
 }
+
 main h2 {
   width: 3em;
+}
+
+nav {
+  grid-area: nav;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header {
+  grid-area: header;
 }
 
 nav li {
