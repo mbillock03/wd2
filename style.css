@@ -33,11 +33,11 @@ header h3, nav a, main h2 {
 }
 
 header h1 { 
-  width: 5vw; 
+  font-size: 5vw; 
 }
 
 header h3 {
-  width: 2vw;
+  font-size: 2vw;
 }
 
 main {
@@ -45,7 +45,7 @@ main {
 }
 
 main h2 {
-  width: 3em;
+  font-size: 3em;
 }
 
 nav {
@@ -62,11 +62,11 @@ header {
 }
 
 nav li {
-  width: 1.5em;
+  font-size: 1.5em;
 }
 
 main p, footer p {
-  width: 1em;
+  font-size: 1em;
 }
 
 
