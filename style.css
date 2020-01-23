@@ -50,6 +50,7 @@ main h2 {
 
 nav {
   grid-area: nav;
+  background:rgba(0,0,0,.2);
 }
 
 footer {
@@ -68,10 +69,6 @@ main p, footer p {
   width: 1em;
 }
 
-nav {
-    grid-area:nav;
-    background:rgba(0,0,0,.2);
-    }
 
 nav ul {
    padding:10px;
