@@ -30,13 +30,12 @@ header h3, nav a, main h2 {
   
   main p, footer p {
     color:white;
-    text-align: center;
 }
 
 header h1 { 
   font-size: 5vw; 
   text-align: center;
-  text-align: center;
+
 }
 
 header h3 {
