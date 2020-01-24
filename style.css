@@ -62,6 +62,11 @@ footer {
   grid-area: footer;
 }
 
+footer p {
+  text-align: center;
+  color: white; 
+}
+
 header {
   grid-area: header;
 }
