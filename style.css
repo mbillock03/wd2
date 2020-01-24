@@ -38,9 +38,10 @@ header h1 {
 
 }
 
-header h3 {
+header h2 {
   font-size: 2vw;
   text-align: center;
+  color:navy;
 }
 
 main {
