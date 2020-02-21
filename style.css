@@ -83,7 +83,7 @@ footer p {
   color:white;
   margin:0;
 }
-aside{
+aside {
   grid-area: aside;
   background:rgba(0,0,0,.2);
   padding:5px;
@@ -104,6 +104,23 @@ aside{
     text-align:center;
     padding:5px 0;
   }
+  
+  article {
+  background:rgba(0,0,0,.2);
+  padding:5px;
+}
+
+.top {
+  grid-area: top;
+}
+
+.middle {
+  grid-area: middle;
+}
+
+.bottom {
+  grid-area: bottom;
+}
 
  /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
@@ -118,6 +135,22 @@ aside{
     "aside"
     "footer";
     }
+
+.container2 { /*for blog.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "top"
+    "middle"
+    "bottom"
+    "footer";
+    }
+
 
 /*This stuff is for the hamburger menu*/
 .toggleNav {
@@ -151,13 +184,22 @@ aside{
 .container1 { /*for index.html*/
   grid-template-columns:auto 1fr;
   grid-template-areas:
+    "header header "
+    "nav main"
+    "top top"
+    "middle middle"
+    "bottom bottom"
+    "footer footer";
+    }
+
+.container2 { /*for index.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
     "header header"
     "nav main"
     "aside aside"
     "footer footer";
     }
-
-
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -187,5 +229,13 @@ aside{
     "footer footer footer";
     }
 	
-
+.container2 { /*for index.html*/
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header header"
+    "nav main top"
+    "nav main middle"
+    "nav main bottom"
+    "footer footer footer";
+    }
 	}
